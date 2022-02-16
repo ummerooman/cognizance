@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Umme Rooman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-16 10:07:23 AM"/>
+        <attribute name="created" value="VW1tZSBSb29tYW47TEFQVE9QLVNDUDlLTEpHOzIwMjItMDItMTY7MDk6NTM6MjIgQU07MzQxMw=="/>
+        <attribute name="edited" value="VW1tZSBSb29tYW47TEFQVE9QLVNDUDlLTEpHOzIwMjItMDItMTY7MTA6MDc6MjMgQU07MTszNTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <input variable="X"/>
+            <if expression="X%3==0">
+                <then>
+                    <output expression="&quot;x is divisible by 3&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;x is not divisible by 3&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
